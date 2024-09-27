@@ -11,6 +11,7 @@ body {
   line-height: 1.6;
 }
 
+/* header content */
 .wrapper {
   height: 100vh;
   background: linear-gradient(
@@ -19,4 +20,51 @@ body {
       rgba(228, 177, 240, 0.8)
     ),
     url("/images/background.jpg");
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo {
+  width: 100px;
+}
+
+.header .header-right {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.header .header-right i {
+  margin-right: 5px;
+}
+
+.header .header-right a {
+  color: #fff;
+}
+
+.header .header-right a:hover {
+  color: lightblue;
+}
+
+/* Main content */
+.main-content {
+  display: flex;
+  max-width: 1150px;
+  margin: 200px auto;
+  justify-content: center;
+  align-items: start;
+  height: 100%;
+  padding: 0 40px;
+}
+
+.main-content form {
+  flex: 1;
+}
+
+.main-content .text-container {
+  flex: 1;
 }
