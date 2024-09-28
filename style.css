@@ -131,7 +131,7 @@ body {
 
 /* Media Queries */
 
-@media (max-width: 650spx) {
+@media (max-width: 600px) {
   .header {
     padding: 30px 10px 5px;
   }
